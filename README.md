@@ -1,1 +1,1 @@
-This repository consists all exercise related to github actions.
+This repository consists all practice exercise in github actions course.
