@@ -42,6 +42,14 @@ jobs:
               run: |
                echo "Repo var: ${{vars.REPOSITORY_VAR}}"
                echo "Environment var: ${{vars.TARGET_VAR}}"
+    echo-staging:
+        runs-on: ubuntu-latest
+        environment: staging
+        steps:
+            - name: Print Prod Variables
+              run: |
+               echo "Repo var: ${{vars.REPOSITORY_VAR}}"
+               echo "Environment var: ${{vars.TARGET_VAR}}"               
     echo-undefined:
         runs-on: ubuntu-latest
         steps:
