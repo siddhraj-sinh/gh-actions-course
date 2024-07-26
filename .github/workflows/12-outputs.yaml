@@ -8,7 +8,7 @@ on:
             options:
                 - success
                 - failure
-            default: sucess
+            default: success
 
 
 jobs:
